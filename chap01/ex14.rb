@@ -1,13 +1,14 @@
-user_name = ARGV.first #gets the first argument
-prompt = '!cdcs' #gets.chomp 
+#user_name = ARGV.first #gets the first argument
+first, second = ARGV
+prompt = '??' #gets.chomp
 
-puts "Hi #{user_name}."
+puts "Hi #{first}."
 puts "I'd like to ask you a few questions."
-puts "Do you like me #{user_name}? "
+puts "Do you like #{second}? "
 puts prompt
 likes = $stdin.gets.chomp
 
-puts "Where do you live #{user_name}? "
+puts "Where do you live #{second}? "
 puts prompt
 lives = $stdin.gets.chomp
 
