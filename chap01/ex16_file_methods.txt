@@ -1,7 +1,23 @@
-list of commands to call on fies to remember:
+list of commands to call on files to remember:
 
 close -- Closes the file. Like File->Save.. in your editor.
 read -- Reads the contents of the file. You can assign the result to a variable.
 readline -- Reads just one line of a text file.
 truncate -- Empties the file. Watch out if you care about the file.
 write('stuff') -- Writes "stuff" to the file.
+File.exist?(to_file)
+f.readline() - you're reading a line from the file, moving the read head to right after the \\n that ends that line
+
+The most important modifiers to know: the + modifier, so you can do 'w+', 'r+', and 'a+'.
+This will open the file in both read and write mode, and depending on the character use position the file in different ways.
+
+
+#heredoc(here document) - used to create a multi-line string. Start: <<CAP end: CAP
+poem = <<END
+\tThe lovely world
+with logic so firmly planted
+cannot discern \n the needs of love
+nor comprehend passion from intuition
+and requires an explanation
+\n\t\twhere there is none.
+END

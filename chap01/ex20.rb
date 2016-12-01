@@ -1,6 +1,6 @@
 input_file = ARGV.first
 
-def print_all(f)
+def print_all(f) #f is variable, but a file
   puts f.read
 end
 
