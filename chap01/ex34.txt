@@ -1,0 +1,10 @@
+animals = ['bear', 'ruby', 'peacock', 'kangaroo', 'whale', 'platypus']
+
+The animal at 1. => animal[1] => 'ruby' #cardinal order
+The third (3rd) animal.'peacock' ordinal number
+The first (1st) animal. 'bear' ordinal number
+The animal at 3. => animal[3] => 'kangaroo'
+The fifth (5th) animal. 'whale' - ordinal number
+The animal at 2. => animal[2] => 'peacock'
+The sixth (6th) animal. 'platypus'
+The animal at 4. => animal[4] => 'whale'

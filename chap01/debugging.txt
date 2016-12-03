@@ -1,0 +1,20 @@
+# first block
+if
+  # do something
+end
+
+
+# second block
+if
+  # do something
+end
+
+
+# third block block
+if
+  # do something
+end
+
+
+
+'----'

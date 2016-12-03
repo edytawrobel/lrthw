@@ -21,3 +21,13 @@ nor comprehend passion from intuition
 and requires an explanation
 \n\t\twhere there is none.
 END
+
+
+dogs += 5  increment by 5
+cats -= 6
+
+if-statement: creates a "branch" in the code.
+it tells your script, "If this boolean expression is true, then run the code under it, otherwise skip it."
+
+What happens if multiple elsif blocks are true?
+Ruby starts and the top runs the first block that is true, so it will run only the first one.
