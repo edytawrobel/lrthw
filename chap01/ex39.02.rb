@@ -1,11 +1,11 @@
-# countries = {
-#   'Poland' => 'PL',
-#   'Germany' => 'DE',
-#   'Italy' => 'IT',
-#   'France' => 'FR'
-# }
-
-countries = {'Poland': 'PL', 'Germany': 'DE', 'Italy': 'IT', 'France': 'FR'}
+countries = {
+  'Poland' => 'PL',
+  'Germany' => 'DE',
+  'Italy' => 'IT',
+  'France' => 'FR'
+}
+#creating hash with a key that is a symbol
+#countries = {'Poland': 'PL', 'Germany': 'DE', 'Italy': 'IT', 'France': 'FR'}
 puts countries
 
 capitals = {
